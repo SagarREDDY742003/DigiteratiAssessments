@@ -1,10 +1,10 @@
-package Week1;
+package task1;
 
-public class task1 {
+public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("kskwhdy");
+		System.out.println("NJBGF");
 	}
 
 }
