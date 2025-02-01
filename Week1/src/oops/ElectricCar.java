@@ -1,16 +1,35 @@
 package oops;
-import utill.Constants;
+
+import utility.Constants;
+
 public class ElectricCar extends Car {
-	public String batteryRange;
-	
-	public ElectricCar(String make, String model, int year, String batteryRange) {
+
+	public int batteryRange;
+
+	// constructor
+	public ElectricCar(String make, String model, int year, int batteryRange) {
 		super(make, model, year);
 		this.batteryRange = batteryRange;
-		
+
 	}
-	
+
+	public int getBatteryRange() {
+		return batteryRange;
+	}
+
+	public void setBatteryRange(int batteryRange) {
+		this.batteryRange = batteryRange;
+	}
+
+	// chargeBattery method
 	public void chargeBattery() {
-		System.out.println(Constants.CHARGE_BATTERY);
+		System.out.println(getMake() + " " + getModel() + " " + Constants.CHARGE_BATTERY);
+	}
+
+	// Overriding startEngine method
+	@Override
+	public void startEngine() {
+		System.out.println(getMake() + " " + getModel() + " " + Constants.START_ELECTRIC_ENGINE);
 	}
 
 }

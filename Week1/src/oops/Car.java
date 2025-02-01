@@ -1,6 +1,6 @@
 package oops;
 
-import utill.Constants;
+import utility.Constants;
 
 public class Car {
 
@@ -42,8 +42,8 @@ public class Car {
 	}
 
 	// method to start engine
-	public static void startEngine() {
-		System.out.println(Constants.START_ENGINE_);
+	public void startEngine() {
+		System.out.println(make + " " + model + " " + Constants.START_ENGINE);
 	}
 
 }
