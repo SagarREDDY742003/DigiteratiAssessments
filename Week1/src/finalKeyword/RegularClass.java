@@ -1,10 +1,11 @@
 package finalKeyword;
 
-public class RegularClass {
+//Regular class
+class RegularClass {
+	final int finalVariable = 20;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	// Final method: Cannot be overridden by subclasses
+	final void finalMethod() {
+		System.out.println(finalVariable);
 	}
-
 }
