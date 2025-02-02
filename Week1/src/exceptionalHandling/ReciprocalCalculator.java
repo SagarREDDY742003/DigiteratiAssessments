@@ -1,4 +1,4 @@
-package ExceptionalHandling;
+package exceptionalHandling;
 
 import java.util.Scanner;
 import utility.Constants;
