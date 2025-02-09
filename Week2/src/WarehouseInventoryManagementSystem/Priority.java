@@ -1,4 +1,4 @@
-package weekTwo.WarehouseInventoryManagementSystem;
+package WarehouseInventoryManagementSystem;
 
 public enum Priority {
     STANDARD, EXPEDITED;

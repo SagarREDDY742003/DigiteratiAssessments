@@ -1,4 +1,4 @@
-package weekTwo.WarehouseInventoryManagementSystem;
+package WarehouseInventoryManagementSystem;
 
 import java.util.List;
 
