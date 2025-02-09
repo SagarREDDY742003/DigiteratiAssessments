@@ -1,4 +1,4 @@
-package weekTwo.LibraryManagementSystem;
+package LibraryManagementSystem;
 
 public class Book {
 	private String title;

@@ -1,4 +1,4 @@
-package weekTwo.LibraryManagementSystem;
+package LibraryManagementSystem;
 
 public class LibraryManager extends LibrarySystem {
 

@@ -1,4 +1,4 @@
-package weekTwo.LibraryManagementSystem;
+package LibraryManagementSystem;
 
 // Custom Exception class
 public class BookNotFoundException extends Exception {

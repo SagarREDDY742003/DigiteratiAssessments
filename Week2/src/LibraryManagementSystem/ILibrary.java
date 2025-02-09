@@ -1,4 +1,4 @@
-package weekTwo.LibraryManagementSystem;
+package LibraryManagementSystem;
 
 public interface ILibrary {
 	void borrowBook(String ISBN, String userID)
