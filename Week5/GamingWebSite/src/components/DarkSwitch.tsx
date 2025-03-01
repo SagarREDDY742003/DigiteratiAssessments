@@ -1,4 +1,5 @@
 import { HStack, Switch, useColorMode } from '@chakra-ui/react'
+import React from 'react';
 //using reat api endpoint is known as consuming api
 //this is a functional component
 
