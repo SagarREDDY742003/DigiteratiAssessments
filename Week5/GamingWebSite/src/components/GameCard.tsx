@@ -7,6 +7,10 @@ import axios from 'axios'
 import React from 'react';
 const GameCard = () => {
     
+    const pageSize = 4;
+    const[page,setPage] = useState(1)
+    
+
     const [response, getData] = useState([])
 
     useEffect(() => {
@@ -17,10 +21,15 @@ const GameCard = () => {
         }
         fetchData()
     },[])
+
+    const startRange = (page - 1) * pageSize
+    const endRange = startRange + pageSize
+    const visibleItems = response.slice(startRange, endRange)
     
   return (
+    <>
     <SimpleGrid w='100%' minChildWidth='260px'  p={6} gap={6}>
-        {response.map((item:object,key) => (
+        {visibleItems.map((item:object,key) => (
             <GridItem w='100%' key={key}>
                 <Card maxW='sm' boxShadow={'4px 4px 15px rgb(0,0,0,0.15)'} >
                     <CardHeader>
@@ -49,7 +58,7 @@ const GameCard = () => {
                                 <Text fontSize='sm'>Genres</Text>
                                 <GridItem fontSize='sm'>
                                     {item.genres.map((genre:any,index:number) => (
-                                        <Badge key={index} display={'inline'} colorScheme='purple'>{genre.name} </Badge>
+                                        <Badge key={index} display={'inline'} mx={'1'} colorScheme='purple'>{genre.name} </Badge>
                                     ))}
                                 </GridItem>
                             </Box>
@@ -69,11 +78,14 @@ const GameCard = () => {
                     </CardBody>
                 </Card>
             </GridItem>
-        ))}
-        
+        ))}      
     </SimpleGrid>
-
-
+    <SimpleGrid display={'flex'} justifyContent={'center'}>
+        <Button m={'4'} onClick={()=>page>1?setPage(page-1):null } backgroundColor={'teal.500'} >Prev</Button>
+        <Button m={'4'}  onClick={()=>page<Math.floor(response.length/pageSize)?setPage(page+1):null} backgroundColor={'teal.500'}>Next</Button>
+    </SimpleGrid>
+    
+    </>
   )
 }
 

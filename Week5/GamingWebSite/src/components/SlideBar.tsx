@@ -17,10 +17,10 @@ const SideBar = () => {
           <DrawerHeader>Navigation</DrawerHeader>
           <DrawerBody>
             <VStack align="start">
-              <Link href="/" color="white" > Home</Link>
-              <Link href="#" color="white">About</Link>
-              <Link href="#" color="white">Contact</Link>
-              <Link href="/" color="white">Games</Link>
+              <Link href="/" style={{textDecoration:"none"}} > Home</Link>
+              <Link href="#" style={{textDecoration:"none"}}>About</Link>
+              <Link href="#" style={{textDecoration:"none"}}>Contact</Link>
+              <Link href="/" style={{textDecoration:"none"}}>Games</Link>
             </VStack>
           </DrawerBody>
           <DrawerFooter>
