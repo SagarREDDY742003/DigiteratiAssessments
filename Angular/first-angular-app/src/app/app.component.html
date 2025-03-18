@@ -1,0 +1,22 @@
+<div class="bg-warning p-5 rounded">
+    <h1 class="display-4">{{title}}</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<hr/>
+<div class="form-group">
+    <label for="alertClass">Choose an alert class:</label>
+    <select id="alertClass" [(ngModel)]="current">
+        <option value="alert alert-info">alert-info</option>
+        <option value="alert alert-primary">alert-primary</option>
+        <option value="alert alert-success">alert-success</option>
+        <option value="alert alert-warning">alert-warning</option>
+        <option value="alert alert-danger">alert-danger</option>
+    </select>
+</div>
+<app-attribute-expo></app-attribute-expo>
+<div class="bg-dark p-3 rounded" [style.color]="'white'">
+    <h2 class="display-6">Current or last Focused Info-Box</h2>
+    <p>{{focusedbox}}</p>
+</div>
+<app-info *ngFor="let x of quotes" [info]="x" [aclass]="current" (senseit)="grabit($event)"></app-info>

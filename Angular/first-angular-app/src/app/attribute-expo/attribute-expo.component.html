@@ -1,0 +1,13 @@
+<div [ngStyle]="currentTheme">
+    <button class="btn btn-dark" (click)="changeTheme('theme1')" >Theme 1</button>
+    <button class="btn btn-dark" (click)="changeTheme('theme2')" >Theme 2</button>
+    <button class="btn btn-dark" (click)="changeTheme('theme3')" >Theme 3</button>
+
+    <select [(ngModel)]="fontname">
+        <option *ngFor="let x of fontNames">{{x}}</option>
+    </select>
+    <h3 [style.fontFamily]="fontname">List Items</h3>
+    <ul [style.fontFamily]="fontname">
+        <li *ngFor="let item of dataItems">{{item}}</li>
+    </ul>
+</div>
