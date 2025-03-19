@@ -7,7 +7,7 @@
             "pin": "600001",
             "mobile": "1234567890",
             "email": "chennaidc@abcpro.com",
-            "image": "chennai.jpg"
+            "image": "chennai.jpeg"
         },
         {
             "name": "Corporate Headquarters",
@@ -16,7 +16,7 @@
             "pin": "400001",
             "mobile": "0987654321",
             "email": "main@abcpro.com",
-            "image": "mumbai.jpg"
+            "image": "mumbai.jpeg"
         },
         {
             "name": "Hyderbad Develpment Center",
@@ -25,7 +25,7 @@
             "pin": "500002",
             "mobile": "1122334455",
             "email": "hdc@eabcpro.com",
-            "image": "hyderabad.jpg"
+            "image": "hyderabad.jpeg"
         }
     ]
 }
