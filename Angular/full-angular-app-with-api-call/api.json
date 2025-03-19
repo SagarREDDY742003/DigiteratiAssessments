@@ -1,0 +1,31 @@
+{
+    "contacts": [
+        {
+            "name": "Chennai Development Center",
+            "address": "123 Chennai Street",
+            "city": "Chennai",
+            "pin": "600001",
+            "mobile": "1234567890",
+            "email": "chennaidc@abcpro.com",
+            "image": "chennai.jpg"
+        },
+        {
+            "name": "Corporate Headquarters",
+            "address": "456 Mumbai Avenue",
+            "city": "Mumbai",
+            "pin": "400001",
+            "mobile": "0987654321",
+            "email": "main@abcpro.com",
+            "image": "mumbai.jpg"
+        },
+        {
+            "name": "Hyderbad Develpment Center",
+            "address": "789 Mumbai Road",
+            "city": "Hyderabad",
+            "pin": "500002",
+            "mobile": "1122334455",
+            "email": "hdc@eabcpro.com",
+            "image": "hyderabad.jpg"
+        }
+    ]
+}
