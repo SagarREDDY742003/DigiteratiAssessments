@@ -1,1 +1,5 @@
-<p>home works!</p>
+<div class="p-lg-5 p-md-3 p-sm-1">
+    <h3> Our Services </h3>
+    <app-service-item *ngFor="let x of servicelist" [service]="x"></app-service-item>
+</div>
+<app-enquiry-form></app-enquiry-form>

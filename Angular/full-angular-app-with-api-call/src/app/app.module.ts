@@ -10,6 +10,14 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
+import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
+import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
+import { FormsModule } from '@angular/forms';
+import { ProjectItemComponent } from './pages/projects/project-item/project-item.component';
+import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
+import { EnquiriesItemComponent } from './pages/enquiries/enquiries-item/enquiries-item.component';
+
 
 @NgModule({
   declarations: [
@@ -19,12 +27,19 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
-    ContactItemComponent
+    ContactItemComponent,
+    ServiceItemComponent,
+    ServiceDetailsComponent,
+    EnquiryFormComponent,
+    ProjectItemComponent,
+    EnquiriesComponent,
+    EnquiriesItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

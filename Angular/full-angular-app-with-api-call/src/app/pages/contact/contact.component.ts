@@ -8,9 +8,11 @@ import { ApiService } from '../../services/api.service';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-  contactlist:Contact[]=[]
+  contactlist:Contact[]=[];
 
-  constructor(private as:ApiService) { }
+  constructor(private as:ApiService) {
+    
+  }
   
   ngOnInit(): void {
     //ngOnInit is a lifecycle hook

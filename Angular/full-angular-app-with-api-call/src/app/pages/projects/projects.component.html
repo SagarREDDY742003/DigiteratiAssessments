@@ -1,1 +1,6 @@
-<p>projects works!</p>
+
+<div class="container mt-3">
+    <h3 class="m-3 bg-success-subtle p-2 text-center">Project List</h3>
+    <app-project-item *ngFor="let project of projectlist" [project]="project"></app-project-item>
+</div>
+
