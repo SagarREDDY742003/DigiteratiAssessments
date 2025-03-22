@@ -1,286 +1,704 @@
 {
-    "categories":[
-        {
-            "id": "1",
-            "title": "Action",
-            "description": "Explore latest action movies.",
-            "image": "action.jpg"
-        },
-        {
-            "id": "2",
-            "title": "Comedy",
-            "description": "Laugh out loud with these comedy movies.",
-            "image": "commedy.jpg"
-        },
-        {
-            "id": "3",
-            "title": "Drama",
-            "description": "Immerse yourself in gripping drama films.",
-            "image": "drama.jpg"
-        },
-        {
-            "id": "4",
-            "title": "Horror",
-            "description": "Experience spine-chilling horror movies.",
-            "image": "horror.jpg"
-        },
-        {
-            "id": "5",
-            "title": "Love",
-            "description": "Discover futuristic sci-fi adventures.",
-            "image": "love.jpg"
-        },
-        {
-            "id": "6",
-            "title": "Adventure",
-            "description": "Get thrilled with intense suspense movies.",
-            "image": "adventure.jpg"
-        }
-    ],
-    "movies":[
-        {
-            "id": "1",
-            "name": "Fury Road",
-            "rating": "8.5",
-            "category": "Action",
-            "description": "A post-apocalyptic action thriller set in a desert wasteland. In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max. The movie is known for its high-octane action sequences and stunning visuals. It explores themes of survival, rebellion, and redemption. The characters embark on a relentless chase across the barren landscape, facing numerous obstacles and adversaries.",
-            "image": "fury_road.jpg"
-        },
-        {
-            "id": "2",
-            "name": "The Dark Knight",
-            "rating": "9.0",
-            "category": "Action",
-            "description": "Batman faces the Joker in this iconic action-packed movie. The Dark Knight is a gripping tale of heroism and sacrifice, where Batman must confront his greatest nemesis, the Joker, who seeks to plunge Gotham City into chaos. The movie is renowned for its intense action sequences, complex characters, and moral dilemmas. As Batman struggles to maintain order, he is forced to question his own methods and the true cost of justice. The film explores themes of fear, corruption, and the fine line between heroism and vigilantism.",
-            "image": "dark_knight.jpg"
-        },
-        {
-            "id": "3",
-            "name": "John Wick",
-            "rating": "8.2",
-            "category": "Action",
-            "description": "A retired assassin seeks revenge for his stolen car and slain dog. John Wick, a legendary hitman, is forced back into the criminal underworld he left behind. His quest for vengeance becomes a relentless pursuit, as he takes on numerous adversaries with his unparalleled combat skills. The movie is known for its stylish action sequences, intricate world-building, and the stoic yet charismatic performance of Keanu Reeves. As John Wick navigates through a series of intense confrontations, he uncovers deeper conspiracies and faces moral dilemmas that challenge his resolve.",
-            "image": "john_wick.jpg"
-        },
-        {
-            "id": "4",
-            "name": "Gladiator",
-            "rating": "8.5",
-            "category": "Drama",
-            "description": "A betrayed Roman general seeks vengeance in the Colosseum. Gladiator follows the story of Maximus Decimus Meridius, a once-powerful Roman general who is betrayed by the emperor's ambitious son, Commodus. Stripped of his rank and sold into slavery, Maximus rises through the ranks of the gladiatorial arena, driven by his desire for revenge and justice. The film is renowned for its epic battle scenes, compelling performances, and exploration of themes such as honor, loyalty, and the corrupting influence of power. As Maximus fights for his life and his legacy, he becomes a symbol of hope and resistance against tyranny.",
-            "image": "gladiator.jpg"
-        },
-        {
-            "id": "5",
-            "name": "Forrest Gump",
-            "rating": "8.8",
-            "category": "Drama",
-            "description": "A heartwarming story of a simple man influencing history. Forrest Gump, a man with a low IQ, recounts his extraordinary life journey, from his childhood in Alabama to his accidental involvement in key historical events. Despite his limitations, Forrest's unwavering optimism and kindness lead him to achieve remarkable feats, including becoming a college football star, a war hero, and a successful businessman. The film explores themes of destiny, love, and the impact of one individual's actions on the world.",
-            "image": "forrest_gump.jpg"
-        },
-        {
-            "id": "6",
-            "name": "The Shawshank Redemption",
-            "rating": "9.3",
-            "category": "Drama",
-            "description": "An innocent man finds hope and friendship in prison. The Shawshank Redemption follows the story of Andy Dufresne, a banker wrongly convicted of murder, and his friendship with fellow inmate Red. Over the years, Andy's resilience and ingenuity bring hope and change to the oppressive environment of Shawshank Prison. The film delves into themes of justice, redemption, and the enduring human spirit, as Andy's unwavering determination inspires those around him and ultimately leads to his escape and a new beginning.",
-            "image": "shawshank_redemption.jpg"
-        },
-        {
-            "id": "7",
-            "name": "Titanic",
-            "rating": "7.9",
-            "category": "Love",
-            "description": "A love story aboard the ill-fated Titanic. Titanic tells the tragic romance between Jack, a poor artist, and Rose, a wealthy young woman, who meet aboard the RMS Titanic. As their forbidden love blossoms, the ship's fateful collision with an iceberg leads to a harrowing struggle for survival. The film captures the grandeur and devastation of the Titanic's maiden voyage, exploring themes of class disparity, love, and sacrifice. Jack and Rose's enduring love story becomes a poignant symbol of hope amidst the tragedy.",
-            "image": "titanic.jpg"
-        },
-        {
-            "id": "8",
-            "name": "The Notebook",
-            "rating": "7.8",
-            "category": "Love",
-            "description": "A tale of an enduring love that withstands time and memory loss. The Notebook follows the story of Noah and Allie, two young lovers who are separated by social class and circumstances. Despite the obstacles, their love endures over the years, and they are eventually reunited. The film explores themes of love, memory, and the passage of time, highlighting the power of true love to overcome all challenges.",
-            "image": "notebook.jpg"
-        },
-        {
-            "id": "9",
-            "name": "La La Land",
-            "rating": "8.0",
-            "category": "Love",
-            "description": "A love story between a jazz musician and an aspiring actress. La La Land is a modern musical that tells the story of Sebastian and Mia, two artists pursuing their dreams in Los Angeles. As they navigate the highs and lows of their careers, their love for each other is tested. The film is known for its vibrant visuals, memorable music, and exploration of the sacrifices and compromises required to achieve one's dreams.",
-            "image": "la_la_land.jpg"
-        },
-        {
-            "id": "10",
-            "name": "Indiana Jones and the Last Crusade",
-            "rating": "8.2",
-            "category": "Adventure",
-            "description": "Indiana Jones embarks on a quest to find the Holy Grail. In this thrilling adventure, Indiana Jones teams up with his father, Dr. Henry Jones Sr., to search for the legendary Holy Grail. Along the way, they face dangerous traps, treacherous enemies, and uncover ancient secrets. The film is celebrated for its action-packed sequences, witty dialogue, and the dynamic father-son relationship at its core.",
-            "image": "indiana_jones.jpg"
-        },
-        {
-            "id": "11",
-            "name": "Jurassic Park",
-            "rating": "8.1",
-            "category": "Adventure",
-            "description": "A thrilling adventure in a dinosaur theme park gone wrong. Jurassic Park follows a group of scientists and visitors who are invited to a groundbreaking theme park featuring genetically engineered dinosaurs. When the park's security systems fail, the dinosaurs escape, leading to a fight for survival. The film is renowned for its groundbreaking special effects, suspenseful storytelling, and exploration of the ethical implications of genetic engineering.",
-            "image": "jurassic_park.jpg"
-        },
-        {
-            "id": "12",
-            "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
-            "rating": "8.0",
-            "category": "Adventure",
-            "description": "Captain Jack Sparrow embarks on a high-seas adventure to rescue the governor's daughter and reclaim his ship, the Black Pearl. Along the way, he faces cursed pirates led by his former first mate, Hector Barbossa. The film is known for its swashbuckling action, witty dialogue, and Johnny Depp's iconic portrayal of Jack Sparrow.",
-            "image": "pirates_of_caribbean.jpg"
-        },
-        {
-            "id": "13",
-            "name": "The Conjuring",
-            "rating": "7.5",
-            "category": "Horror",
-            "description": "Paranormal investigators Ed and Lorraine Warren uncover a haunted farmhouse plagued by a malevolent spirit. As they delve deeper into the mystery, they face terrifying supernatural occurrences and must confront their own fears. The film is praised for its suspenseful atmosphere, chilling scares, and strong performances.",
-            "image": "the_conjuring.jpg"
-        },
-        {
-            "id": "14",
-            "name": "It",
-            "rating": "7.4",
-            "category": "Horror",
-            "description": "A terrifying clown named Pennywise preys on the children of Derry, Maine. A group of kids, known as the Losers' Club, band together to confront their deepest fears and defeat the shape-shifting entity. The film is noted for its creepy visuals, intense scares, and the strong camaraderie among the young cast.",
-            "image": "it.jpg"
-        },
-        {
-            "id": "15",
-            "name": "A Nightmare on Elm Street",
-            "rating": "7.5",
-            "category": "Horror",
-            "description": "Freddy Krueger, a vengeful spirit with a burned face and razor-sharp glove, haunts the dreams of teenagers in Springwood. As the teens struggle to stay awake, they must find a way to stop Freddy before he claims more victims. The film is a horror classic known for its inventive premise, iconic villain, and terrifying dream sequences.",
-            "image": "nightmare_elm_street.jpg"
-        },
-        {
-            "id": "16",
-            "name": "The Hangover",
-            "rating": "7.7",
-            "category": "Comedy",
-            "description": "A bachelor party in Las Vegas goes hilariously wrong when three friends wake up with no memory of the previous night and the groom missing. As they retrace their steps, they encounter bizarre situations and outrageous characters. The film is celebrated for its outrageous humor, memorable quotes, and the chemistry among the cast.",
-            "image": "hangover.jpg"
-        },
-        {
-            "id": "17",
-            "name": "Superbad",
-            "rating": "7.6",
-            "category": "Comedy",
-            "description": "Two high school friends, Seth and Evan, plan an epic night before heading off to college. Their quest to buy alcohol for a party leads to a series of misadventures and hilarious encounters. The film is known for its raunchy humor, heartfelt moments, and the strong bond between the lead characters.",
-            "image": "superbad.jpg"
-        },
-        {
-            "id": "18",
-            "name": "Step Brothers",
-            "rating": "7.5",
-            "category": "Comedy",
-            "description": "Two grown men become stepbrothers and cause chaos. Brennan and Dale, two middle-aged, jobless men, are forced to live together when their single parents marry. Their childish rivalry and antics lead to a series of hilarious and outrageous situations, ultimately teaching them the value of family and friendship.",
-            "image": "step_brothers.jpg"
-        },
-        {
-            "id": "19",
-            "name": "Die Hard",
-            "rating": "8.2",
-            "category": "Action",
-            "description": "A cop takes on terrorists in a high-rise building. John McClane, an NYPD officer, finds himself trapped in a Los Angeles skyscraper during a Christmas party when a group of terrorists, led by Hans Gruber, take hostages. Using his wit and resourcefulness, McClane fights to save the hostages and thwart the terrorists' plans.",
-            "image": "die_hard.jpg"
-        },
-        {
-            "id": "20",
-            "name": "Braveheart",
-            "rating": "8.3",
-            "category": "Drama",
-            "description": "A Scottish warrior leads a rebellion against England. William Wallace, a 13th-century Scottish warrior, rallies his countrymen to fight for Scotland's independence from English rule. The film chronicles his journey from a peaceful farmer to a legendary leader, highlighting themes of freedom, sacrifice, and the struggle for justice.",
-            "image": "braveheart.jpg"
-        },
-        {
-            "id": "21",
-            "name": "Pretty Woman",
-            "rating": "7.0",
-            "category": "Love",
-            "description": "A businessman falls in love with a spirited woman. Edward, a wealthy businessman, hires Vivian, a vivacious prostitute, to accompany him for a week of social events. As they spend time together, their relationship evolves from a business arrangement to a genuine romance, challenging societal norms and expectations.",
-            "image": "pretty_woman.jpg"
-        },
-        {
-            "id": "22",
-            "name": "Jumanji",
-            "rating": "7.8",
-            "category": "Adventure",
-            "description": "A magical board game unleashes a wild adventure. When two siblings discover an old board game, they unwittingly release a man trapped inside it for decades and a host of jungle creatures. To end the chaos, they must finish the game, facing numerous challenges and learning valuable lessons about bravery and teamwork.",
-            "image": "jumanji.jpg"
-        },
-        {
-            "id": "23",
-            "name": "The Exorcist",
-            "rating": "8.0",
-            "category": "Horror",
-            "description": "A young girl becomes possessed by a demonic force. The Exorcist follows the harrowing journey of a mother seeking help for her daughter, who exhibits increasingly disturbing behavior. As medical and psychological explanations fail, she turns to two priests for an exorcism. The film delves into themes of faith, fear, and the battle between good and evil. The priests face their own doubts and fears as they confront the malevolent entity. The movie is renowned for its intense and terrifying scenes, leaving a lasting impact on audiences.",
-            "image": "the_exorcist.jpg"
-        },
-        {
-            "id": "24",
-            "name": "Dumb and Dumber",
-            "rating": "7.3",
-            "category": "Comedy",
-            "description": "Two dimwitted friends, Lloyd and Harry, embark on a cross-country road trip to return a briefcase full of money to its rightful owner. Along the way, they encounter a series of hilarious and absurd situations, showcasing their lack of common sense and intelligence. Despite their incompetence, their genuine friendship and good intentions lead to unexpected outcomes. The film is known for its slapstick humor, memorable quotes, and the comedic chemistry between Jim Carrey and Jeff Daniels.",
-            "image": "dumb_and_dumber.jpg"
-        },
-        {
-            "id": "25",
-            "name": "The Revenant",
-            "rating": "8.0",
-            "category": "Adventure",
-            "description": "The Revenant follows the harrowing journey of Hugh Glass, a frontiersman left for dead after being mauled by a bear. Struggling to survive in the harsh wilderness, Glass endures extreme physical and emotional challenges. Driven by a desire for revenge against those who betrayed him, he navigates treacherous landscapes and hostile environments. The film is praised for its stunning cinematography, intense performances, and exploration of themes such as survival, resilience, and the human spirit.",
-            "image": "the_revenant.jpg"
-        },
-        {
-            "id": "26",
-            "name": "Speed",
-            "rating": "7.2",
-            "category": "Action",
-            "description": "Speed is a high-octane action thriller centered around a bomb-rigged bus that must stay above 50 mph to avoid explosion. LAPD officer Jack Traven must find a way to save the passengers and defuse the bomb, all while navigating the busy streets of Los Angeles. The film is known for its intense action sequences, suspenseful plot, and the dynamic performances of Keanu Reeves and Sandra Bullock. As the tension escalates, Jack and the passengers must work together to outsmart the bomber and survive the ordeal.",
-            "image": "speed.jpg"
-        },
-        {
-            "id": "27",
-            "name": "Rocky",
-            "rating": "8.1",
-            "category": "Drama",
-            "description": "An underdog boxer fights for his chance at glory. Rocky Balboa, a small-time boxer from Philadelphia, gets a once-in-a-lifetime opportunity to fight the heavyweight champion, Apollo Creed. Despite the odds, Rocky trains hard and gives his all in the ring. The film explores themes of perseverance, determination, and the human spirit. Rocky's journey from obscurity to the spotlight inspires audiences to believe in themselves and never give up on their dreams.",
-            "image": "rocky.jpg"
-        },
-        {
-            "id": "28",
-            "name": "Casablanca",
-            "rating": "8.5",
-            "category": "Love",
-            "description": "A timeless romance set during World War II. Casablanca follows the story of Rick Blaine, a cynical American expatriate who runs a nightclub in Casablanca. When his former lover Ilsa Lund re-enters his life, Rick must choose between love and duty. The film is renowned for its memorable quotes, iconic performances, and exploration of themes such as sacrifice, loyalty, and the complexities of love in times of war. The enduring romance between Rick and Ilsa captivates audiences, making Casablanca a classic.",
-            "image": "casablanca.jpg"
-        },
-        {
-            "id": "29",
-            "name": "The Blair Witch Project",
-            "rating": "6.5",
-            "category": "Horror",
-            "description": "Found footage of a terrifying encounter in the woods. The Blair Witch Project follows three film students who venture into the Maryland woods to investigate the legend of the Blair Witch. As they document their journey, they encounter increasingly disturbing and unexplained phenomena. The film's found footage style creates a sense of realism and immersion, heightening the tension and fear. The characters' descent into paranoia and terror is palpable, making The Blair Witch Project a groundbreaking and influential horror film.",
-            "image": "blair_witch.jpg"
-        },
-        {
-            "id": "30",
-            "name": "Anchorman",
-            "rating": "7.2",
-            "category": "Comedy",
-            "description": "A comedic look at a 1970s news anchor's antics. Anchorman follows the misadventures of Ron Burgundy, a charismatic and egotistical news anchor in 1970s San Diego. When a talented female reporter, Veronica Corningstone, joins the news team, Ron's world is turned upside down. The film is known for its absurd humor, memorable one-liners, and satirical take on the news industry. The ensemble cast delivers hilarious performances, making Anchorman a beloved comedy that continues to entertain audiences with its outrageous antics.",
-            "image": "anchorman.jpg"
-        }
-    ],
-    "reviews":[
-        
-    ]
-    
+  "categories": [
+    {
+      "id": "1",
+      "title": "Action",
+      "description": "Explore latest action movies.",
+      "image": "action.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Comedy",
+      "description": "Laugh out loud with these comedy movies.",
+      "image": "commedy.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Drama",
+      "description": "Immerse yourself in gripping drama films.",
+      "image": "drama.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Horror",
+      "description": "Experience spine-chilling horror movies.",
+      "image": "horror.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Love",
+      "description": "Discover futuristic sci-fi adventures.",
+      "image": "love.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Adventure",
+      "description": "Get thrilled with intense suspense movies.",
+      "image": "adventure.jpg"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "name": "Fury Road",
+      "rating": "8.5",
+      "category": "Action",
+      "description": "A post-apocalyptic action thriller set in a desert wasteland. In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max. The movie is known for its high-octane action sequences and stunning visuals. It explores themes of survival, rebellion, and redemption. The characters embark on a relentless chase across the barren landscape, facing numerous obstacles and adversaries.",
+      "image": "fury_road.jpg"
+    },
+    {
+      "id": "2",
+      "name": "The Dark Knight",
+      "rating": "9.0",
+      "category": "Action",
+      "description": "Batman faces the Joker in this iconic action-packed movie. The Dark Knight is a gripping tale of heroism and sacrifice, where Batman must confront his greatest nemesis, the Joker, who seeks to plunge Gotham City into chaos. The movie is renowned for its intense action sequences, complex characters, and moral dilemmas. As Batman struggles to maintain order, he is forced to question his own methods and the true cost of justice. The film explores themes of fear, corruption, and the fine line between heroism and vigilantism.",
+      "image": "dark_knight.jpg"
+    },
+    {
+      "id": "3",
+      "name": "John Wick",
+      "rating": "8.2",
+      "category": "Action",
+      "description": "A retired assassin seeks revenge for his stolen car and slain dog. John Wick, a legendary hitman, is forced back into the criminal underworld he left behind. His quest for vengeance becomes a relentless pursuit, as he takes on numerous adversaries with his unparalleled combat skills. The movie is known for its stylish action sequences, intricate world-building, and the stoic yet charismatic performance of Keanu Reeves. As John Wick navigates through a series of intense confrontations, he uncovers deeper conspiracies and faces moral dilemmas that challenge his resolve.",
+      "image": "john_wick.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Gladiator",
+      "rating": "8.5",
+      "category": "Drama",
+      "description": "A betrayed Roman general seeks vengeance in the Colosseum. Gladiator follows the story of Maximus Decimus Meridius, a once-powerful Roman general who is betrayed by the emperor's ambitious son, Commodus. Stripped of his rank and sold into slavery, Maximus rises through the ranks of the gladiatorial arena, driven by his desire for revenge and justice. The film is renowned for its epic battle scenes, compelling performances, and exploration of themes such as honor, loyalty, and the corrupting influence of power. As Maximus fights for his life and his legacy, he becomes a symbol of hope and resistance against tyranny.",
+      "image": "gladiator.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Forrest Gump",
+      "rating": "8.8",
+      "category": "Drama",
+      "description": "A heartwarming story of a simple man influencing history. Forrest Gump, a man with a low IQ, recounts his extraordinary life journey, from his childhood in Alabama to his accidental involvement in key historical events. Despite his limitations, Forrest's unwavering optimism and kindness lead him to achieve remarkable feats, including becoming a college football star, a war hero, and a successful businessman. The film explores themes of destiny, love, and the impact of one individual's actions on the world.",
+      "image": "forrest_gump.jpg"
+    },
+    {
+      "id": "6",
+      "name": "The Shawshank Redemption",
+      "rating": "9.3",
+      "category": "Drama",
+      "description": "An innocent man finds hope and friendship in prison. The Shawshank Redemption follows the story of Andy Dufresne, a banker wrongly convicted of murder, and his friendship with fellow inmate Red. Over the years, Andy's resilience and ingenuity bring hope and change to the oppressive environment of Shawshank Prison. The film delves into themes of justice, redemption, and the enduring human spirit, as Andy's unwavering determination inspires those around him and ultimately leads to his escape and a new beginning.",
+      "image": "shawshank_redemption.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Titanic",
+      "rating": "7.9",
+      "category": "Love",
+      "description": "A love story aboard the ill-fated Titanic. Titanic tells the tragic romance between Jack, a poor artist, and Rose, a wealthy young woman, who meet aboard the RMS Titanic. As their forbidden love blossoms, the ship's fateful collision with an iceberg leads to a harrowing struggle for survival. The film captures the grandeur and devastation of the Titanic's maiden voyage, exploring themes of class disparity, love, and sacrifice. Jack and Rose's enduring love story becomes a poignant symbol of hope amidst the tragedy.",
+      "image": "titanic.jpg"
+    },
+    {
+      "id": "8",
+      "name": "The Notebook",
+      "rating": "7.8",
+      "category": "Love",
+      "description": "A tale of an enduring love that withstands time and memory loss. The Notebook follows the story of Noah and Allie, two young lovers who are separated by social class and circumstances. Despite the obstacles, their love endures over the years, and they are eventually reunited. The film explores themes of love, memory, and the passage of time, highlighting the power of true love to overcome all challenges.",
+      "image": "notebook.jpg"
+    },
+    {
+      "id": "9",
+      "name": "La La Land",
+      "rating": "8.0",
+      "category": "Love",
+      "description": "A love story between a jazz musician and an aspiring actress. La La Land is a modern musical that tells the story of Sebastian and Mia, two artists pursuing their dreams in Los Angeles. As they navigate the highs and lows of their careers, their love for each other is tested. The film is known for its vibrant visuals, memorable music, and exploration of the sacrifices and compromises required to achieve one's dreams.",
+      "image": "la_la_land.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Indiana Jones and the Last Crusade",
+      "rating": "8.2",
+      "category": "Adventure",
+      "description": "Indiana Jones embarks on a quest to find the Holy Grail. In this thrilling adventure, Indiana Jones teams up with his father, Dr. Henry Jones Sr., to search for the legendary Holy Grail. Along the way, they face dangerous traps, treacherous enemies, and uncover ancient secrets. The film is celebrated for its action-packed sequences, witty dialogue, and the dynamic father-son relationship at its core.",
+      "image": "indiana_jones.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Jurassic Park",
+      "rating": "8.1",
+      "category": "Adventure",
+      "description": "A thrilling adventure in a dinosaur theme park gone wrong. Jurassic Park follows a group of scientists and visitors who are invited to a groundbreaking theme park featuring genetically engineered dinosaurs. When the park's security systems fail, the dinosaurs escape, leading to a fight for survival. The film is renowned for its groundbreaking special effects, suspenseful storytelling, and exploration of the ethical implications of genetic engineering.",
+      "image": "jurassic_park.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "rating": "8.0",
+      "category": "Adventure",
+      "description": "Captain Jack Sparrow embarks on a high-seas adventure to rescue the governor's daughter and reclaim his ship, the Black Pearl. Along the way, he faces cursed pirates led by his former first mate, Hector Barbossa. The film is known for its swashbuckling action, witty dialogue, and Johnny Depp's iconic portrayal of Jack Sparrow.",
+      "image": "pirates_of_caribbean.jpg"
+    },
+    {
+      "id": "13",
+      "name": "The Conjuring",
+      "rating": "7.5",
+      "category": "Horror",
+      "description": "Paranormal investigators Ed and Lorraine Warren uncover a haunted farmhouse plagued by a malevolent spirit. As they delve deeper into the mystery, they face terrifying supernatural occurrences and must confront their own fears. The film is praised for its suspenseful atmosphere, chilling scares, and strong performances.",
+      "image": "the_conjuring.jpg"
+    },
+    {
+      "id": "14",
+      "name": "It",
+      "rating": "7.4",
+      "category": "Horror",
+      "description": "A terrifying clown named Pennywise preys on the children of Derry, Maine. A group of kids, known as the Losers' Club, band together to confront their deepest fears and defeat the shape-shifting entity. The film is noted for its creepy visuals, intense scares, and the strong camaraderie among the young cast.",
+      "image": "it.jpg"
+    },
+    {
+      "id": "15",
+      "name": "A Nightmare on Elm Street",
+      "rating": "7.5",
+      "category": "Horror",
+      "description": "Freddy Krueger, a vengeful spirit with a burned face and razor-sharp glove, haunts the dreams of teenagers in Springwood. As the teens struggle to stay awake, they must find a way to stop Freddy before he claims more victims. The film is a horror classic known for its inventive premise, iconic villain, and terrifying dream sequences.",
+      "image": "nightmare_elm_street.jpg"
+    },
+    {
+      "id": "16",
+      "name": "The Hangover",
+      "rating": "7.7",
+      "category": "Comedy",
+      "description": "A bachelor party in Las Vegas goes hilariously wrong when three friends wake up with no memory of the previous night and the groom missing. As they retrace their steps, they encounter bizarre situations and outrageous characters. The film is celebrated for its outrageous humor, memorable quotes, and the chemistry among the cast.",
+      "image": "hangover.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Superbad",
+      "rating": "7.6",
+      "category": "Comedy",
+      "description": "Two high school friends, Seth and Evan, plan an epic night before heading off to college. Their quest to buy alcohol for a party leads to a series of misadventures and hilarious encounters. The film is known for its raunchy humor, heartfelt moments, and the strong bond between the lead characters.",
+      "image": "superbad.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Step Brothers",
+      "rating": "7.5",
+      "category": "Comedy",
+      "description": "Two grown men become stepbrothers and cause chaos. Brennan and Dale, two middle-aged, jobless men, are forced to live together when their single parents marry. Their childish rivalry and antics lead to a series of hilarious and outrageous situations, ultimately teaching them the value of family and friendship.",
+      "image": "step_brothers.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Die Hard",
+      "rating": "8.2",
+      "category": "Action",
+      "description": "A cop takes on terrorists in a high-rise building. John McClane, an NYPD officer, finds himself trapped in a Los Angeles skyscraper during a Christmas party when a group of terrorists, led by Hans Gruber, take hostages. Using his wit and resourcefulness, McClane fights to save the hostages and thwart the terrorists' plans.",
+      "image": "die_hard.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Braveheart",
+      "rating": "8.3",
+      "category": "Drama",
+      "description": "A Scottish warrior leads a rebellion against England. William Wallace, a 13th-century Scottish warrior, rallies his countrymen to fight for Scotland's independence from English rule. The film chronicles his journey from a peaceful farmer to a legendary leader, highlighting themes of freedom, sacrifice, and the struggle for justice.",
+      "image": "braveheart.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Pretty Woman",
+      "rating": "7.0",
+      "category": "Love",
+      "description": "A businessman falls in love with a spirited woman. Edward, a wealthy businessman, hires Vivian, a vivacious prostitute, to accompany him for a week of social events. As they spend time together, their relationship evolves from a business arrangement to a genuine romance, challenging societal norms and expectations.",
+      "image": "pretty_woman.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Jumanji",
+      "rating": "7.8",
+      "category": "Adventure",
+      "description": "A magical board game unleashes a wild adventure. When two siblings discover an old board game, they unwittingly release a man trapped inside it for decades and a host of jungle creatures. To end the chaos, they must finish the game, facing numerous challenges and learning valuable lessons about bravery and teamwork.",
+      "image": "jumanji.jpg"
+    },
+    {
+      "id": "23",
+      "name": "The Exorcist",
+      "rating": "8.0",
+      "category": "Horror",
+      "description": "A young girl becomes possessed by a demonic force. The Exorcist follows the harrowing journey of a mother seeking help for her daughter, who exhibits increasingly disturbing behavior. As medical and psychological explanations fail, she turns to two priests for an exorcism. The film delves into themes of faith, fear, and the battle between good and evil. The priests face their own doubts and fears as they confront the malevolent entity. The movie is renowned for its intense and terrifying scenes, leaving a lasting impact on audiences.",
+      "image": "the_exorcist.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Dumb and Dumber",
+      "rating": "7.3",
+      "category": "Comedy",
+      "description": "Two dimwitted friends, Lloyd and Harry, embark on a cross-country road trip to return a briefcase full of money to its rightful owner. Along the way, they encounter a series of hilarious and absurd situations, showcasing their lack of common sense and intelligence. Despite their incompetence, their genuine friendship and good intentions lead to unexpected outcomes. The film is known for its slapstick humor, memorable quotes, and the comedic chemistry between Jim Carrey and Jeff Daniels.",
+      "image": "dumb_and_dumber.jpg"
+    },
+    {
+      "id": "25",
+      "name": "The Revenant",
+      "rating": "8.0",
+      "category": "Adventure",
+      "description": "The Revenant follows the harrowing journey of Hugh Glass, a frontiersman left for dead after being mauled by a bear. Struggling to survive in the harsh wilderness, Glass endures extreme physical and emotional challenges. Driven by a desire for revenge against those who betrayed him, he navigates treacherous landscapes and hostile environments. The film is praised for its stunning cinematography, intense performances, and exploration of themes such as survival, resilience, and the human spirit.",
+      "image": "the_revenant.jpg"
+    },
+    {
+      "id": "26",
+      "name": "Speed",
+      "rating": "7.2",
+      "category": "Action",
+      "description": "Speed is a high-octane action thriller centered around a bomb-rigged bus that must stay above 50 mph to avoid explosion. LAPD officer Jack Traven must find a way to save the passengers and defuse the bomb, all while navigating the busy streets of Los Angeles. The film is known for its intense action sequences, suspenseful plot, and the dynamic performances of Keanu Reeves and Sandra Bullock. As the tension escalates, Jack and the passengers must work together to outsmart the bomber and survive the ordeal.",
+      "image": "speed.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Rocky",
+      "rating": "8.1",
+      "category": "Drama",
+      "description": "An underdog boxer fights for his chance at glory. Rocky Balboa, a small-time boxer from Philadelphia, gets a once-in-a-lifetime opportunity to fight the heavyweight champion, Apollo Creed. Despite the odds, Rocky trains hard and gives his all in the ring. The film explores themes of perseverance, determination, and the human spirit. Rocky's journey from obscurity to the spotlight inspires audiences to believe in themselves and never give up on their dreams.",
+      "image": "rocky.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Casablanca",
+      "rating": "8.5",
+      "category": "Love",
+      "description": "A timeless romance set during World War II. Casablanca follows the story of Rick Blaine, a cynical American expatriate who runs a nightclub in Casablanca. When his former lover Ilsa Lund re-enters his life, Rick must choose between love and duty. The film is renowned for its memorable quotes, iconic performances, and exploration of themes such as sacrifice, loyalty, and the complexities of love in times of war. The enduring romance between Rick and Ilsa captivates audiences, making Casablanca a classic.",
+      "image": "casablanca.jpg"
+    },
+    {
+      "id": "29",
+      "name": "The Blair Witch Project",
+      "rating": "6.5",
+      "category": "Horror",
+      "description": "Found footage of a terrifying encounter in the woods. The Blair Witch Project follows three film students who venture into the Maryland woods to investigate the legend of the Blair Witch. As they document their journey, they encounter increasingly disturbing and unexplained phenomena. The film's found footage style creates a sense of realism and immersion, heightening the tension and fear. The characters' descent into paranoia and terror is palpable, making The Blair Witch Project a groundbreaking and influential horror film.",
+      "image": "blair_witch.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Anchorman",
+      "rating": "7.2",
+      "category": "Comedy",
+      "description": "A comedic look at a 1970s news anchor's antics. Anchorman follows the misadventures of Ron Burgundy, a charismatic and egotistical news anchor in 1970s San Diego. When a talented female reporter, Veronica Corningstone, joins the news team, Ron's world is turned upside down. The film is known for its absurd humor, memorable one-liners, and satirical take on the news industry. The ensemble cast delivers hilarious performances, making Anchorman a beloved comedy that continues to entertain audiences with its outrageous antics.",
+      "image": "anchorman.jpg"
+    }
+  ],
+  "reviews": [
+    {
+        "id": "1",
+        "name": "User 1",
+        "moviename": "John Wick",
+        "category": "Action",
+        "message": "Absolutely loved it! A must-watch for everyone."
+    },
+    {
+        "id": "2",
+        "name": "User 2",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "Overhyped in my opinion, but still enjoyable."
+    },
+    {
+        "id": "3",
+        "name": "User 3",
+        "moviename": "Fury Road",
+        "category": "Action",
+        "message": "I laughed, I cried, I loved every second of it."
+    },
+    {
+        "id": "4",
+        "name": "User 4",
+        "moviename": "Fury Road",
+        "category": "Action",
+        "message": "A cinematic masterpiece with deep emotions."
+    },
+    {
+        "id": "5",
+        "name": "User 5",
+        "moviename": "The Notebook",
+        "category": "Love",
+        "message": "Loved the chemistry between the leads."
+    },
+    {
+        "id": "6",
+        "name": "User 6",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "The acting was top-notch, especially the main lead."
+    },
+    {
+        "id": "7",
+        "name": "User 7",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "The soundtrack was amazing, really added to the mood."
+    },
+    {
+        "id": "8",
+        "name": "User 8",
+        "moviename": "Jurassic Park",
+        "category": "Adventure",
+        "message": "Loved the chemistry between the leads."
+    },
+    {
+        "id": "9",
+        "name": "User 9",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "A cinematic masterpiece with deep emotions."
+    },
+    {
+        "id": "10",
+        "name": "User 10",
+        "moviename": "The Dark Knight",
+        "category": "Action",
+        "message": "An all-time classic that never gets old!"
+    },
+    {
+        "id": "11",
+        "name": "User 11",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "Overhyped in my opinion, but still enjoyable."
+    },
+    {
+        "id": "12",
+        "name": "User 12",
+        "moviename": "Titanic",
+        "category": "Love",
+        "message": "I laughed, I cried, I loved every second of it."
+    },
+    {
+        "id": "13",
+        "name": "User 13",
+        "moviename": "La La Land",
+        "category": "Love",
+        "message": "The visuals were stunning, but the plot was a bit weak."
+    },
+    {
+        "id": "14",
+        "name": "User 14",
+        "moviename": "Die Hard",
+        "category": "Action",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "15",
+        "name": "User 15",
+        "moviename": "A Nightmare on Elm Street",
+        "category": "Horror",
+        "message": "Great storyline and fantastic performances."
+    },
+    {
+        "id": "16",
+        "name": "User 16",
+        "moviename": "A Nightmare on Elm Street",
+        "category": "Horror",
+        "message": "Absolutely loved it! A must-watch for everyone."
+    },
+    {
+        "id": "17",
+        "name": "User 17",
+        "moviename": "It",
+        "category": "Horror",
+        "message": "The acting was top-notch, especially the main lead."
+    },
+    {
+        "id": "18",
+        "name": "User 18",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "Predictable but still entertaining."
+    },
+    {
+        "id": "19",
+        "name": "User 19",
+        "moviename": "A Nightmare on Elm Street",
+        "category": "Horror",
+        "message": "Predictable but still entertaining."
+    },
+    {
+        "id": "20",
+        "name": "User 20",
+        "moviename": "Braveheart",
+        "category": "Drama",
+        "message": "Had me on the edge of my seat the entire time!"
+    },
+    {
+        "id": "21",
+        "name": "User 21",
+        "moviename": "It",
+        "category": "Horror",
+        "message": "The special effects were out of this world!"
+    },
+    {
+        "id": "22",
+        "name": "User 22",
+        "moviename": "Titanic",
+        "category": "Love",
+        "message": "Loved the chemistry between the leads."
+    },
+    {
+        "id": "23",
+        "name": "User 23",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "The soundtrack was amazing, really added to the mood."
+    },
+    {
+        "id": "24",
+        "name": "User 24",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "The special effects were out of this world!"
+    },
+    {
+        "id": "25",
+        "name": "User 25",
+        "moviename": "Braveheart",
+        "category": "Drama",
+        "message": "Had me on the edge of my seat the entire time!"
+    },
+    {
+        "id": "26",
+        "name": "User 26",
+        "moviename": "Die Hard",
+        "category": "Action",
+        "message": "Predictable but still entertaining."
+    },
+    {
+        "id": "27",
+        "name": "User 27",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "28",
+        "name": "User 28",
+        "moviename": "John Wick",
+        "category": "Action",
+        "message": "Some parts felt slow, but overall a good experience."
+    },
+    {
+        "id": "29",
+        "name": "User 29",
+        "moviename": "Indiana Jones and the Last Crusade",
+        "category": "Adventure",
+        "message": "Loved the chemistry between the leads."
+    },
+    {
+        "id": "30",
+        "name": "User 30",
+        "moviename": "Die Hard",
+        "category": "Action",
+        "message": "I laughed, I cried, I loved every second of it."
+    },
+    {
+        "id": "31",
+        "name": "User 31",
+        "moviename": "La La Land",
+        "category": "Love",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "32",
+        "name": "User 32",
+        "moviename": "Die Hard",
+        "category": "Action",
+        "message": "Had me on the edge of my seat the entire time!"
+    },
+    {
+        "id": "33",
+        "name": "User 33",
+        "moviename": "It",
+        "category": "Horror",
+        "message": "Definitely rewatching this one!"
+    },
+    {
+        "id": "34",
+        "name": "User 34",
+        "moviename": "The Dark Knight",
+        "category": "Action",
+        "message": "Not my cup of tea, but I can see why others like it."
+    },
+    {
+        "id": "35",
+        "name": "User 35",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "Could have been shorter, felt dragged at times."
+    },
+    {
+        "id": "36",
+        "name": "User 36",
+        "moviename": "Titanic",
+        "category": "Love",
+        "message": "The soundtrack was amazing, really added to the mood."
+    },
+    {
+        "id": "37",
+        "name": "User 37",
+        "moviename": "Titanic",
+        "category": "Love",
+        "message": "Had me on the edge of my seat the entire time!"
+    },
+    {
+        "id": "38",
+        "name": "User 38",
+        "moviename": "The Conjuring",
+        "category": "Horror",
+        "message": "A cinematic masterpiece with deep emotions."
+    },
+    {
+        "id": "39",
+        "name": "User 39",
+        "moviename": "A Nightmare on Elm Street",
+        "category": "Horror",
+        "message": "Not my cup of tea, but I can see why others like it."
+    },
+    {
+        "id": "40",
+        "name": "User 40",
+        "moviename": "John Wick",
+        "category": "Action",
+        "message": "The special effects were out of this world!"
+    },
+    {
+        "id": "41",
+        "name": "User 41",
+        "moviename": "Gladiator",
+        "category": "Drama",
+        "message": "The soundtrack was amazing, really added to the mood."
+    },
+    {
+        "id": "42",
+        "name": "User 42",
+        "moviename": "Gladiator",
+        "category": "Drama",
+        "message": "Could have been shorter, felt dragged at times."
+    },
+    {
+        "id": "43",
+        "name": "User 43",
+        "moviename": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "category": "Adventure",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "44",
+        "name": "User 44",
+        "moviename": "It",
+        "category": "Horror",
+        "message": "Some parts felt slow, but overall a good experience."
+    },
+    {
+        "id": "45",
+        "name": "User 45",
+        "moviename": "Forrest Gump",
+        "category": "Drama",
+        "message": "A solid movie but not as good as I expected."
+    },
+    {
+        "id": "46",
+        "name": "User 46",
+        "moviename": "Die Hard",
+        "category": "Action",
+        "message": "Had me on the edge of my seat the entire time!"
+    },
+    {
+        "id": "47",
+        "name": "User 47",
+        "moviename": "The Dark Knight",
+        "category": "Action",
+        "message": "Not my cup of tea, but I can see why others like it."
+    },
+    {
+        "id": "48",
+        "name": "User 48",
+        "moviename": "Forrest Gump",
+        "category": "Drama",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "49",
+        "name": "User 49",
+        "moviename": "Indiana Jones and the Last Crusade",
+        "category": "Adventure",
+        "message": "Loved the chemistry between the leads."
+    },
+    {
+        "id": "50",
+        "name": "User 50",
+        "moviename": "Step Brothers",
+        "category": "Comedy",
+        "message": "A gripping tale that keeps you hooked."
+    },
+    {
+        "id": "51",
+        "name": "User 51",
+        "moviename": "The Dark Knight",
+        "category": "Action",
+        "message": "The visuals were stunning, but the plot was a bit weak."
+    },
+    {
+        "id": "52",
+        "name": "User 52",
+        "moviename": "It",
+        "category": "Horror",
+        "message": "Some parts felt slow, but overall a good experience."
+    },
+    {
+        "id": "53",
+        "name": "User 53",
+        "moviename": "Forrest Gump",
+        "category": "Drama",
+        "message": "The visuals were stunning, but the plot was a bit weak."
+    },
+    {
+        "id": "54",
+        "name": "User 54",
+        "moviename": "John Wick",
+        "category": "Action",
+        "message": "Not my cup of tea, but I can see why others like it."
+    },
+    {
+        "id": "55",
+        "name": "User 55",
+        "moviename": "Superbad",
+        "category": "Comedy",
+        "message": "Overhyped in my opinion, but still enjoyable."
+    },
+    {
+        "id": "56",
+        "name": "User 56",
+        "moviename": "A Nightmare on Elm Street",
+        "category": "Horror",
+        "message": "A solid movie but not as good as I expected."
+    },
+    {
+        "id": "57",
+        "name": "User 57",
+        "moviename": "The Shawshank Redemption",
+        "category": "Drama",
+        "message": "The special effects were out of this world!"
+    },
+    {
+        "id": "58",
+        "name": "User 58",
+        "moviename": "La La Land",
+        "category": "Love",
+        "message": "Great storyline and fantastic performances."
+    },
+    {
+        "id": "59",
+        "name": "User 59",
+        "moviename": "Forrest Gump",
+        "category": "Drama",
+        "message": "A solid movie but not as good as I expected."
+    },
+    {
+        "id": "60",
+        "name": "User 60",
+        "moviename": "La La Land",
+        "category": "Love",
+        "message": "Definitely rewatching this one!"
+    }
+  ]
 }

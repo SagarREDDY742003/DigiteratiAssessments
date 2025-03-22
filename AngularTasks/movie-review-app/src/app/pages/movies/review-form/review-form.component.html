@@ -1,1 +1,22 @@
-<p>review-form works!</p>
+<div class="p-5 card mt-5 mb-5 bg-success-subtle">
+    <h3 class="pb-4">Review Form</h3>
+    <form (submit)="submitForm()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" [(ngModel)]="name" name="name" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-control" rows="4" [(ngModel)]="message" name="message" required></textarea>
+        </div>
+
+        <div class="alert alert-danger" *ngIf="this.errors.length>=1">
+            <ul>
+                <li *ngFor="let error of errors">{{error}}</li>
+            </ul>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
