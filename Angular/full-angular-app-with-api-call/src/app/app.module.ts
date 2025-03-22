@@ -13,10 +13,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
 import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProjectItemComponent } from './pages/projects/project-item/project-item.component';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
 import { EnquiriesItemComponent } from './pages/enquiries/enquiries-item/enquiries-item.component';
+import { LoginComponent } from './common/login/login.component';
+import { EnquiryResponseComponent } from './pages/enquiries/enquiry-response/enquiry-response.component';
+import { HighlightPipe } from './pipes/highlight.pipe';
+import { FilterservicePipe } from './pipes/filterservice.pipe';
 
 
 @NgModule({
@@ -33,13 +37,18 @@ import { EnquiriesItemComponent } from './pages/enquiries/enquiries-item/enquiri
     EnquiryFormComponent,
     ProjectItemComponent,
     EnquiriesComponent,
-    EnquiriesItemComponent
+    EnquiriesItemComponent,
+    LoginComponent,
+    EnquiryResponseComponent,
+    HighlightPipe,
+    FilterservicePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

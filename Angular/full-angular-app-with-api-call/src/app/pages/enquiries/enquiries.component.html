@@ -1,5 +1,19 @@
-<div class="m-4">
-    <h4>Enquiries</h4>
-    <app-enquiries-item *ngFor="let enquiry of enquirylist" [enquiry]="enquiry"></app-enquiries-item>
+<div class="d-flex flex-column">
+    <div class="alert alert-dark" role="alert">
+        Select Service Type:
+        <select [(ngModel)]="selected">
+           <option *ngFor="let service of serviceTypes" [value]="service">
+            {{ service }}</option>
+        </select>
+    </div>
+    <div class="p-4">
+        <h4>Enquiries</h4>
+        <app-enquiries-item *ngFor="let enquiry of enquirylist  | filterservice:selected" [enquiry]="enquiry"></app-enquiries-item>
+    </div>
+    <div class="container">
+        <h3>Enquiry Response</h3>
+        <app-enquiry-response></app-enquiry-response>
+    </div>
 </div>
+
 

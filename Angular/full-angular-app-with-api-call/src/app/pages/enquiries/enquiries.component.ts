@@ -10,6 +10,16 @@ import { ApiService } from '../../services/api.service';
 export class EnquiriesComponent {
   enquirylist:Enquiry[]=[];
 
+  serviceTypes: string[] = [
+    'All',
+   'Branding and Communication',
+   'Inbound & Content Marketing',
+   'Film & Webinar',
+   'Digital Marketing',
+   'ECommerce & Websites',
+   'Market Analysis'
+   ];
+   selected:string = 'All'
   constructor(private as:ApiService){}
 
   ngOnInit():void{

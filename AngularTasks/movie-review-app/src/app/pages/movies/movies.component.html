@@ -1,0 +1,11 @@
+<h4 class="p-4">Movies List</h4>
+<div class="container">
+    <div class="d-flex p-3 mb-4 bg-dark">
+        <h5 class="p-2 text-white">Select Movie Type </h5>
+        <select [(ngModel)]="selected" class="p-2" style="width: 200px;">
+           <option *ngFor="let type of movieTypes" [value]="type" class="border-0 p-2 fw-medium">
+            {{ type }}</option>
+        </select>
+    </div>
+    <app-movie-item *ngFor="let x of movielist | moviefilter:selected" [movie]="x"></app-movie-item>
+</div>

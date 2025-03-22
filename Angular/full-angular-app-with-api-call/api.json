@@ -140,6 +140,216 @@
       "email": "basga@gmail.com",
       "serviceType": "Film & Webinar",
       "message": "I have a question about your services. How this particular service can help freshers who don't have any experience."
+    },
+    {
+      "id": "7570",
+      "name": "John",
+      "email": "john@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Looking for content marketing services."
+    },
+    {
+      "id": "7571",
+      "name": "Jane",
+      "email": "jane@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Need help with a corporate film."
+    },
+    {
+      "id": "7572",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Interested in digital marketing services."
+    },
+    {
+      "id": "7573",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a new ecommerce website."
+    },
+    {
+      "id": "7574",
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market analysis for our new product."
+    },
+    {
+      "id": "7575",
+      "name": "David",
+      "email": "david@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for branding services."
+    },
+    {
+      "id": "7576",
+      "name": "Eve",
+      "email": "eve@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need content marketing strategy."
+    },
+    {
+      "id": "7577",
+      "name": "Frank",
+      "email": "frank@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a webinar."
+    },
+    {
+      "id": "7578",
+      "name": "Grace",
+      "email": "grace@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for SEO services."
+    },
+    {
+      "id": "7579",
+      "name": "Hank",
+      "email": "hank@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a website redesign."
+    },
+    {
+      "id": "7580",
+      "name": "Ivy",
+      "email": "ivy@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require competitor analysis."
+    },
+    {
+      "id": "7581",
+      "name": "Jack",
+      "email": "jack@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for a new logo design."
+    },
+    {
+      "id": "7582",
+      "name": "Karen",
+      "email": "karen@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need help with inbound marketing."
+    },
+    {
+      "id": "7583",
+      "name": "Leo",
+      "email": "leo@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a promotional video."
+    },
+    {
+      "id": "7584",
+      "name": "Mia",
+      "email": "mia@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for social media marketing."
+    },
+    {
+      "id": "7585",
+      "name": "Nina",
+      "email": "nina@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need an ecommerce platform."
+    },
+    {
+      "id": "7586",
+      "name": "Oscar",
+      "email": "oscar@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market research services."
+    },
+    {
+      "id": "7587",
+      "name": "Paul",
+      "email": "paul@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for a branding campaign."
+    },
+    {
+      "id": "7588",
+      "name": "Quinn",
+      "email": "quinn@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need content creation services."
+    },
+    {
+      "id": "7589",
+      "name": "Rose",
+      "email": "rose@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in hosting a webinar."
+    },
+    {
+      "id": "7590",
+      "name": "Sam",
+      "email": "sam@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for PPC services."
+    },
+    {
+      "id": "7591",
+      "name": "Tina",
+      "email": "tina@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a new website design."
+    },
+    {
+      "id": "7592",
+      "name": "Uma",
+      "email": "uma@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require customer analysis."
+    },
+    {
+      "id": "7593",
+      "name": "Vince",
+      "email": "vince@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for communication strategy."
+    },
+    {
+      "id": "7594",
+      "name": "Wendy",
+      "email": "wendy@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need help with content marketing."
+    },
+    {
+      "id": "7595",
+      "name": "Xander",
+      "email": "xander@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a corporate film."
+    },
+    {
+      "id": "7596",
+      "name": "Yara",
+      "email": "yara@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for digital marketing strategy."
+    },
+    {
+      "id": "7597",
+      "name": "Zane",
+      "email": "zane@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need help with ecommerce setup."
+    },
+    {
+      "id": "7598",
+      "name": "Amy",
+      "email": "amy@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market insights."
+    },
+    {
+      "id": "7599",
+      "name": "Brian",
+      "email": "brian@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for branding consultation."
     }
   ],
   "projects": [
@@ -252,6 +462,16 @@
       "teamSize": "14",
       "image": "seo_mastery.jpg",
       "category": "Digital Marketing"
+    }
+  ],
+  "enquiryresponses": [
+    {
+      "id": "0688",
+      "subject": "lksndjd",
+      "message": "knbjkls,;lkncjkdcjsol",
+      "estimatedPrice": 5000,
+      "duration": "30hr",
+      "messageId": "4"
     }
   ]
 }
