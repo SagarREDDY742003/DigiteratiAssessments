@@ -8,7 +8,7 @@ export class MoviefilterPipe implements PipeTransform {
 
   transform(movielist: movies[], movieType:string): movies[] {
     if(movieType === 'All') 
-      return movielist;
+      return movielist
     
     return movielist.filter(movie => movie.category === movieType);
   }

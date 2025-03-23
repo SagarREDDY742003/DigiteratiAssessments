@@ -1,1 +1,21 @@
-<p>reviews works!</p>
+<h4 class="p-4 bg-warning-subtle">Reviews</h4>
+<div class="container">
+    <div class="d-flex p-3 mb-4 bg-dark">
+        <div class="d-flex">
+            <h5 class="p-2 text-white">Select Movie Type </h5>
+            <select [(ngModel)]="categoryselected" class="p-2" style="width: 200px;" (change)="getmovies(categoryselected)">
+            <option *ngFor="let category of categories" [value]="category" class="border-0 p-2 fw-medium">
+                {{ category }}</option>
+            </select>
+        </div>
+        
+        <div  *ngIf="categoryselected!=='All'" class="d-flex" style="margin-left: 30px;">
+            <h5 class="p-2 text-white">Select Movie</h5>
+            <select [(ngModel)]="movieselected" class="p-2" style="width: 200px;">
+                <option class="border-0 p-2 fw-medium" >All</option>
+                <option *ngFor="let movie of movielistfiltered" [value]="movie.name" class="border-0 p-2 fw-medium">{{movie.name}}</option>
+            </select>
+        </div>  
+    </div>
+    <app-review-item *ngFor="let x of reviewlist | reviewfilter:categoryselected:movieselected" [review]="x"></app-review-item>
+</div>

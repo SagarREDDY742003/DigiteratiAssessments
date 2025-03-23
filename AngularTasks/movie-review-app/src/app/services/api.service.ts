@@ -10,21 +10,21 @@ export class ApiService {
   constructor(private http:HttpClient) { }
 
   getCategories():Observable<any>{
-    return this.http.get('http://localhost:4500/categories');
+    return this.http.get('http://localhost:4600/categories');
   }
 
   getMovies():Observable<any>{
-    return this.http.get('http://localhost:4500/movies');
+    return this.http.get('http://localhost:4600/movies');
   }
   getMovieDetails(id:string):Observable<any>{
-    return this.http.get(`http://localhost:4500/movies?id=${id}`);
+    return this.http.get(`http://localhost:4600/movies?id=${id}`);
   }
 
   addReview(data:any):Observable<any>{
-    return this.http.post('http://localhost:4500/reviews',data);
+    return this.http.post('http://localhost:4600/reviews',data);
   }
 
   getReviews():Observable<any>{
-    return this.http.get('http://localhost:4500/reviews');
+    return this.http.get('http://localhost:4600/reviews');
   }
 }

@@ -15,6 +15,9 @@ import { MovieItemComponent } from './pages/movies/movie-item/movie-item.compone
 import { MovieDetailsComponent } from './pages/movies/movie-details/movie-details.component';
 import { ReviewFormComponent } from './pages/movies/review-form/review-form.component';
 import { MoviefilterPipe } from './pipes/moviefilter.pipe';
+import { ReviewItemComponent } from './pages/reviews/review-item/review-item.component';
+import { ReviewfilterPipe } from './pipes/reviewfilter.pipe';
+import { MoviefilteronreviewsPipe } from './pipes/moviefilteronreviews.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { MoviefilterPipe } from './pipes/moviefilter.pipe';
     MovieItemComponent,
     MovieDetailsComponent,
     ReviewFormComponent,
-    MoviefilterPipe
+    MoviefilterPipe,
+    ReviewItemComponent,
+    ReviewfilterPipe,
+    MoviefilteronreviewsPipe
   ],
   imports: [
     BrowserModule,

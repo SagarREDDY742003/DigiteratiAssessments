@@ -12,7 +12,17 @@
                 <a class="nav-link" routerLink="/movies">Movies</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/reviews">Reviews</a>
+                <a class="nav-link" style="cursor: pointer;" (click)="move()">Reviews</a>
+            </li>
+        </ul>
+        
+        <ul class="navbar-nav ms-auto" style="padding-right: 30px;">
+            <li class="nav-item">
+                <p class="text-white mt-2" style="margin-right: 30px;">{{user}}</p>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-primary" (click)="loginhandler()" *ngIf="loginmenu==='login'">Login</button>
+                <button class="btn btn-danger" (click)="loginhandler()" *ngIf="loginmenu==='logout'">Logout</button>
             </li>
         </ul>
     </div>
