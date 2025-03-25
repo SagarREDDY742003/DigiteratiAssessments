@@ -11,6 +11,4 @@ export class FilterservicePipe implements PipeTransform {
     
     return enquirylist.filter(enquiry => enquiry.serviceType === serviceType);
   }
-
-
 }

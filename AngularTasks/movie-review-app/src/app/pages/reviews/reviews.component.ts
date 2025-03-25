@@ -12,6 +12,7 @@ export class ReviewsComponent {
   constructor(private as:ApiService){}
   reviewlist:Reviews[]=[];
   movielist:movies[]=[];
+  
   movielistfiltered:movies[]=[]
   categories: string[] = [
     'All',

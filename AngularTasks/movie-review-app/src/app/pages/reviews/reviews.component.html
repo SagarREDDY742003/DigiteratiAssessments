@@ -7,8 +7,7 @@
             <option *ngFor="let category of categories" [value]="category" class="border-0 p-2 fw-medium">
                 {{ category }}</option>
             </select>
-        </div>
-        
+        </div>     
         <div  *ngIf="categoryselected!=='All'" class="d-flex" style="margin-left: 30px;">
             <h5 class="p-2 text-white">Select Movie</h5>
             <select [(ngModel)]="movieselected" class="p-2" style="width: 200px;">
