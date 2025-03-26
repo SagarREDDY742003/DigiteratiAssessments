@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-
-
-
 class _CountDownState extends State<CountDown> {
   int _counter = 100;
   Timer? _timer;
@@ -36,7 +33,7 @@ class _CountDownState extends State<CountDown> {
       child: Container(
         padding: EdgeInsets.all(16.0),
         decoration: BoxDecoration(
-          color: Colors.blueAccent,
+          color: Colors.cyanAccent,
           borderRadius: BorderRadius.circular(8.0),
         ),
         child: Text(
@@ -52,9 +49,8 @@ class _CountDownState extends State<CountDown> {
   }
 }
 
-
 class CountDown extends StatefulWidget {
   const CountDown({super.key});
   @override
-State<CountDown> createState() => _CountDownState();
+  State<CountDown> createState() => _CountDownState();
 }
