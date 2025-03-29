@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-08T14:46:22.021+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myTraining/settings/wcm/templates/author-component"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Harry Potter and the Chamber of Secrets"
+        jcr:uuid="229d5cfd-e7f2-45f1-bb0d-1896d922ae77"
+        sling:resourceType="myTraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid"/>
+            <image
+                jcr:created="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:46:21.962+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/image"
+                displayPopupTitle="false"
+                fileName="918wxhKJaPL._SY522_.jpg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self">
+                <file/>
+            </image>
+            <title
+                jcr:created="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:36.751+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/title"/>
+            <text
+                jcr:created="{Date}2025-03-08T14:29:18.693+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:46:13.480+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                text="&lt;p>The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockheart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny.&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;But each of these seem minor annoyances when the real trouble begins, and someone--or something--starts turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects...Harry Potter himself?&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

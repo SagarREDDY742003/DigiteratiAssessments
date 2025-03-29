@@ -1,0 +1,46 @@
+#text-fc7bcfca33{
+	background-color:white;
+    border-radius:10px;
+    padding:20px;
+    width:fit-content;
+}
+#new_form{
+	width:500px;
+    padding:20px;
+    background-color:orange;
+    height:230px;
+}
+#new_form .cmp-form-text{
+	margin-bottom:20px;
+    display:flex;
+}
+#new_form .formtextfield{
+	color:white;
+    font-size:20px;
+    font-weight:600;
+}
+#formname{
+    width:300px;
+	height:30px;
+    border:none;
+    border-radius:5px;
+    margin-left:60px;
+    padding:10px;
+}
+#formtextfield{
+	width:300px;
+	height:80px;
+    border:none;
+    border-radius:5px;
+    margin-left:10px;
+    padding:10px;
+}
+#formbtn{
+    width:100px;
+	background-color:green;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    margin-left:20%;
+}

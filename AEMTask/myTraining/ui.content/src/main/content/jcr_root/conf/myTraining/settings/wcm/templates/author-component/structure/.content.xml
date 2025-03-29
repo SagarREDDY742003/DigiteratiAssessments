@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-12T23:22:30.961+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2025-03-12T23:23:01.791+05:30"
+        cq:lastReplicated_publish="{Date}2025-03-12T23:23:01.791+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/myTraining/settings/wcm/templates/author-component"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="75c9c0f9-8557-4df1-8475-850ceee29e42"
+        sling:resourceType="myTraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <experiencefragment_386100658
+                cq:styleIds="[1741614464066,1741617451190,1741615573436]"
+                jcr:created="{Date}2025-03-10T19:06:55.970+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-10T19:06:55.970+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/myTraining/us/en/site/header/master"/>
+            <title
+                jcr:created="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/title"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="10"/>
+                </cq:responsive>
+            </title>
+            <text
+                jcr:created="{Date}2025-03-08T14:29:18.693+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:37:04.820+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="7"/>
+                </cq:responsive>
+            </text>
+            <image
+                jcr:created="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/image"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="2"/>
+                </cq:responsive>
+            </image>
+            <experiencefragment
+                cq:styleIds="[1741619890554,1741620087909,1741620369167,1741801936222]"
+                jcr:created="{Date}2025-03-10T19:06:54.948+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-10T19:30:35.311+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/myTraining/us/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

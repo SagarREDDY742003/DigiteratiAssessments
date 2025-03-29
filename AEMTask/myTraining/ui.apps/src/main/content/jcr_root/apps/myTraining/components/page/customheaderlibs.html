@@ -1,0 +1,12 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='myTraining.base'}"/>
+    <sly data-sly-test.customProperty="${currentPage.properties['customPageProperty']}">
+        <div class="custom-page-property" style="color: Red; font-size: 28px; width:100%; text-align:center;"  >
+            ${customProperty}
+        </div>
+        <sly data-sly-include="script.html"></sly>
+    </sly>
+</sly>
+
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-12T23:00:54.289+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2025-03-12T23:12:16.459+05:30"
+        cq:lastReplicated_publish="{Date}2025-03-12T23:12:16.459+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/myTraining/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:uuid="21427859-629b-4f16-9030-f3b6d69f3633"
+        sling:resourceType="myTraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <experiencefragment-header
+                cq:styleIds="[1741614464066,1741617451190,1741615573436]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/myTraining/us/en/site/header/master"/>
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="myTraining/components/container"
+                    editable="{Boolean}true"
+                    layout="responsiveGrid"/>
+            </container>
+            <experiencefragment
+                cq:styleIds="[1741800110133,1741800210395,1741800271912,1741800637096]"
+                jcr:created="{Date}2025-03-10T21:05:01.184+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-10T21:05:38.411+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/myTraining/us/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-03-13T09:36:45.473+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2025-03-13T09:36:59.522+05:30"
+        cq:lastReplicated_publish="{Date}2025-03-13T09:36:59.522+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:tags="[]"
+        cq:template="/conf/myTraining/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        jcr:uuid="feed3af7-c5a6-43d0-9684-ab8db45c90ea"
+        sling:resourceType="myTraining/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <list
+                jcr:created="{Date}2025-03-12T21:59:35.948+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-12T22:04:56.957+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/list"
+                childDepth="1"
+                displayItemAsTeaser="false"
+                linkItems="true"
+                listFrom="static"
+                pages="[/content/myTraining/us/en/all-books/a-game-of-thrones,/content/myTraining/us/en/all-books/a-storm-of-swords,/content/myTraining/us/en/all-books/a-dance-with-dragons,/content/myTraining/us/en/all-books/a-clash-of-kings,/content/myTraining/us/en/all-books/harry-potter-and-the-chamber-of-secrets,/content/myTraining/us/en/all-books/harry-potter-and-the-prisoner-of-azkaban,/content/myTraining/us/en/all-books/harry-potter-and-the-goblet-of-fire,/content/myTraining/us/en/all-books/harry-potter-and-the-half-blood-prince,/content/myTraining/us/en/all-books/atomic-habits,/content/myTraining/us/en/all-books/the-monk-who-sold-his-ferrari]"
+                showDescription="false"
+                showModificationDate="false"
+                sortOrder="asc"
+                tagsMatch="any">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="3"/>
+                </cq:responsive>
+            </list>
+            <text_1841621713
+                jcr:created="{Date}2025-03-12T21:56:11.735+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-13T09:36:45.373+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                id="about"
+                text="&lt;h3>&lt;a href=&quot;/content/myTraining/us/en/about-me.html&quot;>About&lt;/a>&lt;/h3>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="1"/>
+                </cq:responsive>
+            </text_1841621713>
+            <text_867382204
+                jcr:created="{Date}2025-03-12T21:59:41.729+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-12T22:00:22.492+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                id="cont"
+                text="&lt;h3>&lt;a href=&quot;/content/myTraining/us/en/contact.html&quot;>Contact&lt;/a>&lt;/h3>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="2"/>
+                </cq:responsive>
+            </text_867382204>
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                text="&lt;p>Copyright 2025, myTraining.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="6"/>
+                </cq:responsive>
+            </text>
+        </root>
+    </jcr:content>
+</jcr:root>

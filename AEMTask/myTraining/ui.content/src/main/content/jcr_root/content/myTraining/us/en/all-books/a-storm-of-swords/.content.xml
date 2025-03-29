@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-11T08:05:02.642+05:30"
+        cq:lastModifiedBy="admin"
+        cq:styleIds="[1741611972127]"
+        cq:template="/conf/myTraining/settings/wcm/templates/author-component"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="A Storm of Swords"
+        jcr:uuid="8d6290be-7534-4b2f-9286-4ae1685af22f"
+        sling:resourceType="myTraining/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid"/>
+            <image
+                jcr:created="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:40:27.354+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/image"
+                displayPopupTitle="false"
+                fileName="41IlbR9jjcL._SY445_SX342_.jpg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self">
+                <file/>
+            </image>
+            <title
+                jcr:created="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:36.751+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/title"/>
+            <text
+                jcr:created="{Date}2025-03-08T14:29:18.693+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:40:45.622+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                text="&lt;p>Of the five contenders for power, one is dead, another in disfavor, and still the wars rage. Joffrey sits on the Iron Throne, the uneasy ruler of the Seven Kingdoms. His most bitter rival, Lord Stannis, stands defeated and disgraced, victim of the sorceress who holds him in her thrall. Young Robb still rules the North from the fortress of Riverrun. Meanwhile, making her way across a blood-drenched continent is the exiled queen, Daenerys, mistress of the only three dragons left in the world. As opposing forces maneuver for the final showdown, an army of barbaric wildlings arrives from the outermost limits of civilization, accompanied by a supernatural army of the living dead. As the future of the land hangs in the balance, no one will rest until the Seven Kingdoms have exploded in a veritable storm of swords. . . .&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2025-03-11T08:05:02.622+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-08T15:00:18.026+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myTraining/settings/wcm/templates/author-component"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Monk Who Sold His Ferrari"
+        jcr:uuid="c6d165b9-dd17-48b4-a84f-f51464fda8b8"
+        sling:resourceType="myTraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid"/>
+            <image
+                jcr:created="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T15:00:17.964+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/image"
+                displayPopupTitle="false"
+                fileName="61OByUf1TfL._SY522_.jpg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self">
+                <file/>
+            </image>
+            <title
+                jcr:created="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:36.751+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/title"/>
+            <text
+                jcr:created="{Date}2025-03-08T14:29:18.693+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T15:00:09.564+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                text="&lt;p>A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life. The plot of this story revolves around Julian Mantle, a lawyer who has made his fortune and name in the profession. A sudden heart-attack creates havoc in the successful lawyer?s life. Jolted by the sudden onset of the illness, his practice comes to a standstill. He ponders over material success being worth it all, renounces all of it and leaves for India. A visit to India about a spiritual awakening that opens up new vistas and Julian begins to view life in a different perspective. He decides to live his life once again but in a way that is much more fulfilling and meaningful than before. In the book, the reader goes through a spiritual journey and into a very old culture that has gathered much wisdom over the millennia. The book advocates about how to live happily, think deep and rightly, value time and relationships, be more disciplined, follow the heart?s call and live every moment of the life. Written in simple words, the book has turned out to be a bestseller and is more than just an endearing story. Through storytelling, Robin Sharma showcases the miracles and wonders of living a fulfilling life. In the process, the book introduces readers to enlightening yet simple principles that vouch to make life better, happier and more meaningful. A bestselling novel, what readers all over the globe appreciate about this book is its deft amalgam of the philosophies from both western and eastern worlds. The book has been followed by important personalities around the world. About the Author Robin Sharma, the bestselling author of 'The Monk Who Sold His Ferrari', first published in 1999, is an International Leadership Professional Guru who is credited with having written 15 books on leadership. He has been guiding people to live a better life, by drawing inspiration from his own life experiences. The Leader Who Had No Title, The Leader Who Had No Title, The Greatness Guide and The Saint and The Saint are among his best books. He heads the Sharma Leadership International Inc, a firm that trains people in leadership. A former litigation lawyer, Robin holds a law degree from Dalhousie Law School, Canada. This book along with The Greatness Guide has been among the world?s bestsellers and has been translated in as many as 70 languages all over the world.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

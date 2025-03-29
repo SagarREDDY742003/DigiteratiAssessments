@@ -1,0 +1,14 @@
+{
+    "title": "Buscador de Eventos",
+    "create_event": "Crear Evento",
+    "find_event": "Buscar Eventos",
+    "event_name": "Nombre del Evento",
+    "event_location": "Ubicación del Evento",
+    "event_date": "Fecha del Evento",
+    "event_image": "Ingrese la URL de la Imagen",
+    "submit": "Enviar",
+    "select_location": "Seleccionar una Ubicación",
+    "no_events": "No se encontraron eventos",
+    "back": "Atrás"
+  }
+  

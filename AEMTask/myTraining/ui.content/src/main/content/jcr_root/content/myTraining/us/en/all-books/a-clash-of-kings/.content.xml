@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-08T14:44:06.245+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myTraining/settings/wcm/templates/author-component"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="A Clash of Kings"
+        jcr:uuid="b24f81d6-fa5f-4966-8606-cba23c7e2a09"
+        sling:resourceType="myTraining/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid"/>
+            <image
+                jcr:created="{Date}2025-03-08T14:29:23.013+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:44:06.193+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/image"
+                displayPopupTitle="false"
+                fileName="81-HH2qXVKL._SY522_.jpg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self">
+                <file/>
+            </image>
+            <title
+                jcr:created="{Date}2025-03-08T14:29:15.452+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:29:36.751+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/title"/>
+            <text
+                jcr:created="{Date}2025-03-08T14:29:18.693+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2025-03-08T14:43:57.522+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/text"
+                text="&lt;p>A comet the color of blood and flame cuts across the sky. Two great leaders—Lord Eddard Stark and Robert Baratheon—who hold sway over an age of enforced peace are dead, victims of royal treachery. Now, from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war. It is a tale in which brother plots against brother and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. Against a backdrop of incest and fratricide, alchemy and murder, victory may go to the men and women possessed of the coldest steel...and the coldest hearts. For when kings clash, the whole land trembles.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2025-03-12T12:09:29.300+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/myTraining/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Author Details"
+        sling:resourceType="myTraining/components/page"
+        addScript="&lt;script>alert('Hello AEM');&lt;/script>"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="myTraining/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="myTraining/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="myTraining/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="myTraining/components/container"
+                    layout="responsiveGrid">
+                    <author
+                        jcr:created="{Date}2025-03-08T14:11:11.895+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-03-11T15:37:35.938+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myTraining/components/author"
+                        authorBio="jdhvoidkjcsjpo;lcfkwop"
+                        authorName="sagar"
+                        authorWebsite="http://localhost:4502/editor.html/content/myTraining/us/en/author-details.html"
+                        dob="{Date}2023-12-20T00:00:00.000+05:30">
+                        <authorQuotes jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                authorQuotes="The unexamined life is not worth living. "/>
+                        </authorQuotes>
+                    </author>
+                    <book
+                        jcr:created="{Date}2025-03-11T19:30:33.151+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2025-03-12T12:09:29.271+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="myTraining/components/book"
+                        books="Book1"
+                        fetchDataFromApi="yes"
+                        loadMoreCtaName="Load"
+                        loadMoreValue="load"/>
+                </container>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2025-03-11T15:02:49.525+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+</jcr:root>

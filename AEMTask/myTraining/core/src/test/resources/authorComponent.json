@@ -1,0 +1,10 @@
+{
+  "jcr:primaryType": "cq:Component",
+  "authorName": "John Doe",
+  "authorBio": "An experienced writer in technology and literature.",
+  "dob": "1990-05-10",
+  "quotes": [
+    "Writing is the painting of the voice.",
+    "A reader lives a thousand lives before he dies."
+  ]
+}

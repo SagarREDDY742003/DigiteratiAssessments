@@ -1,0 +1,25 @@
+
+#header .aem-Grid{
+    height:100px;
+	width:100%;
+	display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:#194a7a;
+    align-items:center;
+}
+#header .cmp-image__image{
+	height:60px;
+    width:60px;
+   
+}
+
+.cmp-text h3 a{
+	color:white;
+	text-decoration:none;
+    padding-top:200px;
+}
+.cont-white{
+color:white;
+}
+

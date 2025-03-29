@@ -1,0 +1,16 @@
+#list-936c70e81e li{
+    height:40px;
+    width:330px;
+    display:flex;
+    align-items:center;
+    border-radius:5px;
+    padding-left:10px;
+    margin-top:10px;
+    background-color:#1CCF84;
+    font-weight:600;
+   
+}
+#list-936c70e81e li a{
+	color:white;
+    text-decoration:none;
+}

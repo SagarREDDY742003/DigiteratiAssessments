@@ -1,0 +1,14 @@
+{
+    "title": "Event Finder",
+    "create_event": "Create Event",
+    "find_event": "Find Events",
+    "event_name": "Event Name",
+    "event_location": "Event Location",
+    "event_date": "Event Date",
+    "event_image": "Enter Image URL",
+    "submit": "Submit",
+    "select_location": "Select a Location",
+    "no_events": "No Events Found",
+    "back": "Back"
+  }
+  

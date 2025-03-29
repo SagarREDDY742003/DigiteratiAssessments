@@ -1,0 +1,28 @@
+name: event_finder
+description: A new Flutter Project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  firebase_core: ^2.15.0  # Firebase initialization
+  cloud_firestore: ^4.9.3  # Firestore for storing events
+  provider: ^6.0.5  # For state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Correct position
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lang/en.json
+    - assets/lang/es.json

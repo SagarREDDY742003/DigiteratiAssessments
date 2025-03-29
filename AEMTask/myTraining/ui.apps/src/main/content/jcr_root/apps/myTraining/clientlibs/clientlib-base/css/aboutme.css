@@ -1,0 +1,24 @@
+#image-afbad6661d img{
+	border-radius:10px;
+}
+#teaser-35ca42883b{
+	margin-left:20px;
+    background-color:#003f5c;
+    width:fit-content;
+    padding:10px 20px;
+    margin-top:20px;
+    border-radius:10px;
+    color:white;
+}
+#teaser-35ca42883b .cmp-teaser__title{
+	text-align:center;
+    width:fit-content;
+    color:#003f5c;
+    padding:10px;
+    background-color:white;
+    border-radius:10px
+}
+#text-d3e67d257e{
+	background-color:white;
+    padding:20px;
+}

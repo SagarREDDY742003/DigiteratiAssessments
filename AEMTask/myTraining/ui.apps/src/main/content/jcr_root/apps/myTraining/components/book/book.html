@@ -1,0 +1,16 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='myTraining.bookcomponent', async=true}"></sly>
+</sly>
+
+<div class="book-component" data-sly-use.authorBookModel="com.myTraining.core.models.BookModel">
+    <div class="apii">${authorBookModel.fetchApi}</div>
+    <div data-sly-list.item="${authorBookModel.books}">
+        <h2> Books By Author</h2>
+        <p>${item}</p>
+        <div class="${properties.fetchDataFromApi}">
+        </div>
+        <div class="book-container">
+        </div>
+        <button id="load-more" data-cards-to-show="${authorBookModel.loadMoreValue}">${authorBookModel.loadMoreCtaName}</button>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961617590176",
+    "project_id": "futterbackend",
+    "storage_bucket": "futterbackend.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961617590176:android:ecbc2722fa151e33cbd6c5",
+        "android_client_info": {
+          "package_name": "com.example.event_finder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0rUYi6rwQ73v_anIQKCFH_5eTZpzev8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961617590176:android:f2e25e1922cf91aecbd6c5",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv0rUYi6rwQ73v_anIQKCFH_5eTZpzev8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

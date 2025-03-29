@@ -1,0 +1,21 @@
+<div class="author-component">
+    <h2>Author Name: ${properties.authorName}</h2>
+    <p>Author BIO: ${properties.authorBio}</p>
+    <p><strong>Author Date of Birth:</strong> ${'dd MMMM, YYYY' @ format=properties.dob,type='datetime'}
+
+</div>
+
+
+<sly data-sly-test.website="${properties.authorWebsite}">
+    <p>Website: <a href="${website}" target="_blank">${website}</a></p>
+</sly>
+
+
+<div data-sly-use.authorModel="com.myTraining.core.models.AuthorModel">
+    <h3>Quotes</h3>
+    <ul>
+        <sly data-sly-list.quote="${authorModel.quotes}">
+            <li>${quote}</li>
+        </sly>
+    </ul>
+</div>
